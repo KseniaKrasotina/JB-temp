@@ -212,10 +212,10 @@ The method is renamed to the original name in file 1 and in file 2
 Expected result: New method is stored in file 1
 
 Actual result:
-- Bug. Priority Medium. Modal window with an Error appears,  new method is stored in file 2
+- Bug. Priority Medium. Modal window with an Error appears,  new method is stored in file 2. [Click](https://github.com/KseniaKrasotina/JB-temp/edit/main/issue1.md) for Bug report
   ![image](https://github.com/user-attachments/assets/80603ed6-4c83-4b65-87c1-a31d5b2cc288)
 
-- Bug. Priority Low. Local History Diff does not show the Before state correctly in a file 1
+- Bug. Priority Low. Local History Diff does not show the Before state correctly in a file 1. [Click](https://github.com/KseniaKrasotina/JB-temp/blob/main/issue2.md) for Bug report
   ![image](https://github.com/user-attachments/assets/66f0eb00-4832-4e27-85bc-716811d34bd3)
 
 ---
