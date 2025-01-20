@@ -2,17 +2,16 @@
 ## Title: Undo operation fails after refactoring method moving
 
 ### Description: 
+Undo operation fails after refactoring such as method moving with the Error window
 
 
-
-Priority: Medium (Functional issue), Low (Usability issue in Local History Diff)
+Priority: Medium 
 Severity: Medium
 
 ## Environment:
 
 Application Version: v1
 Operating System: [macOS Sequoia]
-
 
 ## Pre-condition:
 
