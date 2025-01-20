@@ -47,6 +47,8 @@ The file is full and correctly located
 Actual result:
 The file is full and correctly located
 
+---
+
 #### Scenario 2: Undo/Redo for File Creation
 Steps:
 1. Create file in a root directory 
@@ -60,6 +62,8 @@ The file is restored and located in the root directory
 Actual result:
 The file is restored and located in the root directory
 
+---
+
 #### Scenario 3: Undo/Redo for File Deletion
 Steps:
 1. Create file in a root directory 
@@ -72,6 +76,8 @@ Expected result: Tested file is deleted
 
 Actual result: Tested file is deleted
 
+---
+
 #### Scenario 4: Undo/Redo in a Single File
 Steps:
 1. Add code to the existing file 
@@ -82,6 +88,8 @@ Steps:
 Expected result: Each  change is UNDOed in correct order
 
 Actual result: Each  change is UNDOed in correct order
+
+---
 
 #### Scenario 5: Undo/Redo in a Single File
 Steps:
@@ -96,6 +104,8 @@ Expected result: Each change is REDOed in correct order and file contains the co
 
 Actual result: Each change is REDOed in correct order and file contains the correct code
 
+---
+
 #### Scenario 6: Undo/Redo in collaboration Mode
 Steps:
 1. Connect to the project from 2 devices 
@@ -105,7 +115,9 @@ Steps:
 
 Expected result: Both undo operations performed in the file
 
-Actual result: 
+Actual result: TBD
+
+---
 
 #### Scenario 7: No Confirmation window if Undo/Redo operations only performed in a single file which is active
 Steps:
@@ -119,6 +131,8 @@ Expected result: No Confirmation window appears
 
 Actual result: No Confirmation window appears
 
+---
+
 #### Scenario 8: Undo/Redo operations performed in multiple files
 Steps:
 1. Add code to the existing file 1 
@@ -129,6 +143,8 @@ Steps:
 Expected result: Changes are reverted in file 1 and file 2
 
 Actual result: Changes are reverted in file 1 and file 2
+
+---
 
 #### Scenario 9: Confirmation window appears if Undo/Redo operations performed on file creation/change/moving
 Steps:
@@ -143,6 +159,8 @@ Confirmation window appears on each operation with the file with the relevant co
 
 Actual result: Confirmation window appears on each performed operation with the file with the relevant confirmation message
 
+---
+
 #### Scenario 10: Undo/Redo after connection loss
 Steps:
 1. Change the code in an existing class 
@@ -151,7 +169,9 @@ Steps:
 
 Expected result: Undo performed according to Product rules about connectivity problem Scenarios. It can depend on a timeout period
 
-Actual result:
+Actual result: TBD
+
+---
 
 #### Scenario 11: Undo/Redo after saving file
 Steps:
@@ -165,6 +185,8 @@ Expected result: All N changes are UNDOed and REDOed in a correct oder and file 
 
 Actual result: All N changes are UNDOed and REDOed in a correct oder and file contains the code that performed in step 1
 
+---
+
 #### Scenario 12: Undo operation after refactoring method renaming
 Steps:
 1. Pre-condition: Two project file created: file 1 with method definition, file 2 with method reference 
@@ -177,6 +199,8 @@ The method is renamed to the original name in file 1 and in file 2
 
 Actual result:
 The method is renamed to the original name in file 1 and in file 2
+
+---
 
 #### Scenario 13: Undo operation after refactoring method moving
 1. Pre-condition: Two project file created with source code
@@ -194,6 +218,8 @@ Actual result:
 - Bug. Priority Low. Local History Diff does not show the Before state correctly in a file 1
   ![image](https://github.com/user-attachments/assets/66f0eb00-4832-4e27-85bc-716811d34bd3)
 
+---
+
 #### Scenario 14: Redo operation after refactoring
 Steps:
 1. Pre-condition: Perform Scenario 13 
@@ -205,6 +231,8 @@ The method is renamed in both files
 Actual result:
 The method is renamed in both files
 
+---
+
 #### Scenario 15: Undo after closing/reopening file
 1. Perform  editing operation with the text in an existing single file
 2. Close the file
@@ -214,6 +242,8 @@ The method is renamed in both files
 Expected result: Changes should be reverted to the initial state
 
 Actual result: Changes are reverted to the initial state
+
+---
 
 ### Tools and Approaches
 Testing Tools: IntelliJ IDEA, JetBrains Gateway for remote access.
