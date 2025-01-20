@@ -1,7 +1,8 @@
 # JetBrains. The QA Test Assignment, RD team.
 
-In this Document by _Verification_ we mean three things:
-1. Verifying the content in the Editor area for all collaborators is the same
+In this Document by _Verification_ we mean four things:
+1. Verifying the content in the Editor area of the action initiator
+2. The content in the Editor area is synchronized among all collaborators
 2. Verifying the file content on the file system
 3. Verifying content in the 'Local History -> Local changes' window
 
@@ -30,8 +31,8 @@ In this Document by _Verification_ we mean three things:
 - Issues are reported
 - No critical issues remaining (resolved or addressed to be resolved in a future releases, should be defined if it's possible to postpone until another release)
 - Test report/results are available
-- Approval with Stockholders
-- Release only can be done if criteria for deployment met. Stockholders give a confirmation (can be some legal causes, release documentation should be prepared and shared with partners, localisation for main languages is completed)
+- Approval with Stakeholders
+- Release only can be done if criteria for deployment met. Stakeholders give a confirmation (can be some legal causes, release documentation should be prepared and shared with partners, localisation for main languages is completed)
 
 ### Test Scenarios
 #### Scenario 1: Undo/Redo for File Copy
