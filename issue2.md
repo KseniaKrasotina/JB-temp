@@ -10,6 +10,7 @@ Severity: Low
 
 ## Environment:
 
+```
 IntelliJ IDEA 2024.3.2
 Build #JBC-243.23654.117, built on January 16, 2025
 Licensed to Ksenia Krasotina
@@ -26,6 +27,7 @@ Cores: 12
 Metal Rendering is ON
 Registry:
   ide.experimental.ui=true
+```
 
 ## Pre-condition:
 
