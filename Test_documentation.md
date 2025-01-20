@@ -24,7 +24,7 @@ In this Document by _Verification_ we mean four things:
 - Basic functionality works as expected (IDE, simple redo/undo scenarios)
 - Tools and test data are prepared
 - QA Engineers have enough knowledge of a product feature and skills
-- Define non-technical criteria for the deployment
+- Defined non-technical criteria for the deployment
 
 ### Exit criteria
 - All defined Test Cases are executed
