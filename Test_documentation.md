@@ -222,4 +222,6 @@ Reporting: Report issues in details with environment, steps investigation result
 
 ### Suggestions for improvement, bugs
 - Add more details into 'Local History -> Recent changes'. For example there is no details about From and To destinations when user moves the method to another class
+  ![image](https://github.com/user-attachments/assets/a8bd4014-9d3e-4ce5-a2c6-4fd97f4b479d)
+
 - Bugs are detected in Scenario 13. Screenshots are attached
