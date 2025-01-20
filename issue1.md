@@ -53,5 +53,5 @@ The new method should be restored in File 1.
 Bug 1 (Priority Medium):
 A modal window with an error message appears during the Undo operation. The method remains in File 2 instead of being restored to File 1.
 
-## Sceeenshot:
+## Screenshot:
   ![image](https://github.com/user-attachments/assets/80603ed6-4c83-4b65-87c1-a31d5b2cc288)
