@@ -10,8 +10,22 @@ Severity: Low
 
 ## Environment:
 
-Application Version: v1
-Operating System: [macOS Sequoia]
+IntelliJ IDEA 2024.3.2
+Build #JBC-243.23654.117, built on January 16, 2025
+Licensed to Ksenia Krasotina
+Subscription is active until February 18, 2025.
+Evaluation purpose only.
+Runtime version: 21.0.5+8-b631.30 x86_64 (JCEF 122.1.9)
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Toolkit: sun.lwawt.macosx.LWCToolkit
+macOS 15.1.1
+Controller in Remote Development
+GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+Memory: 2048M
+Cores: 12
+Metal Rendering is ON
+Registry:
+  ide.experimental.ui=true
 
 ## Pre-condition:
 
