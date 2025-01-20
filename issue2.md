@@ -52,5 +52,5 @@ File 2 (Target destination for the method)
 ## Actual Result:
 Local History Diff does not show the Before state correctly in a file 1
 
-## Sceeenshot:
+## Screenshot:
   ![image](https://github.com/user-attachments/assets/66f0eb00-4832-4e27-85bc-716811d34bd3)
